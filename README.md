@@ -25,8 +25,8 @@ This script provides an automated script to configure **Zsh** and **Oh My Zsh** 
 
 1. **Clone this repository**:  
    ```bash
-   git clone https://github.com/YOUR-USERNAME/YOUR-REPO.git
-   cd YOUR-REPO
+   git clone https://github.com/R-kill-9/Terminal-Configuration.git
+   cd Terminal-Configuration
    ```
 
 2. Make the script executable:
