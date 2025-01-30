@@ -17,8 +17,9 @@ This script provides an automated script to configure **Zsh** and **Oh My Zsh** 
 ## Files Included
 
 - `setup_zsh.sh` → The main script for automatic configuration.  
-- `zshrc_config` → Pre-configured `.zshrc` file with Agnoster settings.  
-
+- `zshrc_config` → Pre-configured `.zshrc` file.  
+- `agnoster_config` → Agnoster PROMPT settings.
+  
 ---
 
 ## Installation & Usage
