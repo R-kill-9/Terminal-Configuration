@@ -47,13 +47,5 @@ else
     echo "Custom agnoster_config file not found in the script directory."
 fi
 
-# Configure terminal color scheme (Dark Pastel in GNOME Terminal)
-PROFILE_NAME="Dark Pastel"
-PROFILE_ID=$(gsettings get org.gnome.Terminal.ProfilesList default | tr -d \')
-
-if [ -n "$PROFILE_ID" ]; then
-    echo "Applying Dark Pastel color scheme..."
-    gsettings set "org.gnome.Terminal.Legacy.Profile:/org/gnome/terminal/legacy/profiles:/:$PROFILE_ID/" palette "['#000000', '#CC6666', '#B5BD68', '#F0C674', '#81A2BE', '#B294BB', '#8ABEB7', '#FFFFFF', '#666666', '#FF3334', '#9EC400', '#E7C547', '#7AA6DA', '#C397D8', '#70C0B1', '#1D1F21']"
-fi
 
 echo "Installation complete. Please close and reopen the terminal."
