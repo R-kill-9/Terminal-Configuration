@@ -10,7 +10,7 @@ This script provides an automated script to configure **Zsh** and **Oh My Zsh** 
 2. **Sets Zsh as the default shell**.  
 3. **Installs Oh My Zsh** automatically.  
 4. **Copies a pre-configured `.zshrc` file** with Agnoster.  
-5. **Applies the "Dark Pastel" color scheme**.  
+
 
 ---
 
